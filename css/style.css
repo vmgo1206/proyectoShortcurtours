@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap')
+
+:root{
+
+	--color-texto:#5C5C5C;
+	--color-azul:#008aff;
+	--color-naranja:#ed9d45;
+	
+}
+
+
+
+
+body{
+	font-family: "Pier Sans", "Pier Sans Italic", "Pier Sans Light";
+	font-size: 16px;
+	color: #5C5C5C;
+}
+
+header{
+	padding:20px 100px;
+	
+}
+
+#hero{
+	background-image: url("../img/slider-01.jpg");
+	background-repeat:no-repeat;
+	background-size: auto;
+	background-position: center;
+	padding: 13%;
+	color: #FFFFFF;
+	margin-bottom: 20px;
+}
+#hero-page{
+	background-image: url("../img/1920x1080_maldives-sea-island-bridge-landscape-widescreen.jpg");
+	background-repeat:no-repeat;
+	background-size: 120%;
+	background-position: bottom;
+	padding: 13%;
+	color: #FFFFFF;
+	margin-bottom: 20px;
+}
+#hero-pagecontact-us {
+	background-image: url("../img/contact-us.jpg");
+	background-repeat:no-repeat;
+	background-size: 100%;
+	background-position: center;
+	padding: 13%;
+	color: #FFFFFF;
+	margin-bottom: 20px;
+	font-size:18px;
+	}
+
+	
+#hero .btn{
+	border-radius: 0;
+	padding: 15px 20px;
+	text-transform: uppercase;
+	background-color: #008aff;
+}
+
+#hero-page-planesdeviaje{
+	background-image: url("../img/hero-planesdeviaje.jpeg");
+	background-repeat:no-repeat;
+	background-size: 100%;
+	background-position: center;
+	padding: 13%;
+	color: #FFFFFF;
+	margin-bottom: 20px;
+	font-size:18px;
+	
+}
+#hero-equipo{
+	background-image: url("../img/hero-equipo.jpeg");
+	background-repeat:no-repeat;
+	background-size: 100%;
+	background-position: center;
+	padding: 13%;
+	color: #FFFFFF;
+	margin-bottom: 20px;
+	font-size:18px;
+	
+}
+
+	
+#shortcut-blog .btn-success{
+	margin-top: 30px;
+	border-radius: 0;
+	padding: 15px 20px;
+	text-transform: uppercase;
+	background-color: #008aff;
+	align-content: center;
+}
+
+.titulo{
+	text-align: center;
+	font: 900;
+	margin-bottom: 30px;
+	color: #7ebee9;
+
+}
+
+.titulo-page{
+	text-align: center;
+	font-size: 34px;
+	color: white;
+	font: bold;
+	
+}
+
+.subtitulo{
+	text-align: center;
+	color: #ed9d45;
+	width: 50%;
+	Margin: auto;
+}
+
+#lugaresmasviajados{ 
+	padding: 40px 5px;
+	text-align: center;
+	margin: 5px;
+}
+
+#lugaresmasviajados .btn{
+	margin: auto;
+	border-radius: 0;
+	padding: 15px 20px;
+	text-transform: uppercase;
+	background-color: #008aff;
+	align-self: center;
+}
+
+#lugaresmasviajados .img-fluid{
+	align-content: center;
+	margin-bottom: 30px;
+}
+
+#lugares .img-fluid{
+	align-content: center;
+	margin-bottom: 30px;
+	
+}
+#lugares p{
+	margin-bottom: 5%;
+	
+}
+
+footer{
+	background-color: #00496e;
+	padding: 10px 30px;
+	color: white;
+	font-weight: 100;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+footer .img-fluid{
+	padding: 20px 0;
+}
+
+footer h6{
+	color: #ED9C44;
+}
+
+footer h4{
+	text-transform: uppercase;
+	font-size: 18px;
+	padding: 15px 0;
+}
+
+footer p{
+	font-size: 14px;
+}
+#meca-digital{
+	background-color: #000000;
+}
+
+#meca-digital .img-fluid{
+	margin: 0 10px;
+	padding: 20px ;
+}
+
+#meca-digital p{
+	padding: 60px 0;
+}
+
+#hero-page-blog{
+	background-image: url("../img/playa-blog.jpg");
+	background-repeat:no-repeat;
+	background-size: 100%;
+	background-position: center;
+	padding: 13%;
+	color: #FFFFFF;
+	margin-bottom: 20px;
+}
+
+.subtitulo-blog{
+	text-align: center;
+	color: #fff;
+	font-size: 34px;
+}
+
+#blog{
+	align-content: center;
+	padding: 2% 20%;
+	text-align: center;
+}
+
+#blog h2{
+	text-align: center;
+	font: 900;
+	margin: 20px;
+	color: #7ebee9;
+}
+
+#blog h5{
+	color: #ED9C44;
+}
+.btn-primary{
+	colore: #ffffff;
+}
+
+#blog-2{
+	text-align: center;
+	padding: 2% 20%;
+	align-content: center;	
+}
+#blog-2 h2{
+	text-align: center;
+	font: 900;
+	margin: 20px;
+	color: #7ebee9;
+}
+#blog-2 h5{
+	color: #ED9C44;
+}
+
+#blog-3{
+	text-align: center;
+	padding: 2% 20%;
+	align-content: center;
+}
+#blog-3 h2{
+	text-align: center;
+	font: 900;
+	margin: 20px;
+	color: #7ebee9;
+}
+#blog-3 h5{
+	color: #ED9C44;
+}
+	
+.section p{
+	font-size: 15px;
+}
+
+
+#blog-background .btn-success{
+	border-radius: 0%;
+}
+
+#blog-background{
+	background-color: #fff;
+	margin: 0 10%;
+}
+#blog-fondo-azul{
+	background-color: #7ebee9;
+}
+#planesdeviaje{
+	padding: 3%;
+	margin: 3%;
+}
+
+#planesdeviaje p{
+	text-align: center;
+}
+#hero-pageequipo{
+	text-align: center;
+	margin: 5%;
+}
+.subtitulo-equipo{
+	text-align: center;
+	color: #ed9d45;
+	margin: 3% 0% 3%;
+	
+}
+	
+#hero-pageequipo .circulo i{
+	font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* definición para PC/md */
+@media (min-width:1200px){
+
+	
+	}
+
+/* definición para tablet/sm */
+@media(min-width:480px) and (max-width:1200px){
+	#hero h1{
+	        font-size: 48px;
+		
+	}
+	
+}	
+	
+	/* definición para celular */
+	@media(max-width:480px){
+	
+	#hero h1{
+	        font-size: 32px;
+		}
+	
+	#hero p{
+	        font-size: 14px;
+	
+		}
+	#we-are p
+		width:100%
+		}
+	}
